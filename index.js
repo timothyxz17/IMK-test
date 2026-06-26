@@ -13,7 +13,7 @@ console.log(5=== "5");
 
 //Kondisi
 document.getElementById("btn-cek"). addEventListener("click",function(){
-    let nilai =number(document.getElementById("input-nilai").value);
+    let nilai = Number(document.getElementById("input-nilai").value);
     // document.getelementbyid fungsinya mengambil elemen html berdasarkan id
     let hasil;
         if(nilai >= 80){
